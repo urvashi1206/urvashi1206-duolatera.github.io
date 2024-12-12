@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        
+        section {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        section h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Project Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="#goal">Goal</a></li>
+                <li><a href="#build">How It Was Built</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#lessons">What I Learned</a></li>
+                <li><a href="#next">What's Next?</a></li>
+                <li><a href="#design">Design Document</a></li>
+                <li><a href="#download">Download Build</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Goal Section -->
+        <section id="goal">
+            <h2>Goal of the Project</h2>
+            <p>The goal of this project is to create a comprehensive, interactive experience that showcases the core features and innovations of our development efforts. We aim to provide an intuitive and engaging platform that demonstrates our technical proficiency and creative problem-solving skills.</p>
+        </section>
+
+        <!-- How It Was Built Section -->
+        <section id="build">
+            <h2>How It Was Built</h2>
+            <p>We used a combination of modern technologies and industry best practices to ensure a smooth development process. The core components of the project include:</p>
+            <ul>
+                <li><strong>Programming Languages:</strong> JavaScript, HTML, CSS</li>
+                <li><strong>Frameworks & Libraries:</strong> React.js, Node.js, Bootstrap</li>
+                <li><strong>Tools:</strong> Git, Figma, Postman</li>
+                <li><strong>Development Environment:</strong> Visual Studio Code, Docker</li>
+            </ul>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results">
+            <h2>Results</h2>
+            <p>Below are some images and video clips that highlight key aspects of the project and its functionality.</p>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Project Screenshot 1">
+                <img src="image2.jpg" alt="Project Screenshot 2">
+                <img src="image3.jpg" alt="Project Screenshot 3">
+                <img src="image4.jpg" alt="Project Screenshot 4">
+            </div>
+        </section>
+
+        <!-- What I Learned Section -->
+        <section id="lessons">
+            <h2>What I Learned</h2>
+            <p>This project taught me valuable lessons in:</p>
+            <ul>
+                <li>Problem-solving and debugging complex issues</li>
+                <li>Collaborating effectively with a team</li>
+                <li>Mastering new frameworks and tools on the fly</li>
+                <li>Building responsive, user-friendly interfaces</li>
+            </ul>
+        </section>
+
+        <!-- What's Next Section -->
+        <section id="next">
+            <h2>What Would I Do Next?</h2>
+            <p>Moving forward, I plan to:</p>
+            <ul>
+                <li>Add new features and functionality based on user feedback</li>
+                <li>Enhance the user interface for a more engaging experience</li>
+                <li>Optimize performance for faster load times</li>
+                <li>Incorporate AI-driven analytics for better insights</li>
+            </ul>
+        </section>
+
+        <!-- Design Document Section -->
+        <section id="design">
+            <h2>Design Document</h2>
+            <p>Explore the full design document that outlines the concept, objectives, technical architecture, and production approach for the project.</p>
+            <a href="design_doc.pdf" download>Download Design Document</a>
+        </section>
+
+        <!-- Download Build Section -->
+        <section id="download">
+            <h2>Download Build</h2>
+            <p>Click the link below to download the latest build of the project.</p>
+            <a href="https://drive.google.com/file/d/1wOtnj-SyZd5ifnVirCe8KGhSxMT-4qs-/view?usp=drive_link" target="_blank">Download Build</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by [Your Name]. Connect with me on <a href="#">LinkedIn</a>.</p>
+    </footer>
+</body>
+
+</html>
